@@ -1,0 +1,17 @@
+:root { --bg: #000; --flate: #141416; --tekst: #fff; --dempet: rgba(255,255,255,.62); --laser: #FF1F4B; }
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--tekst);
+  font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 40px 20px 64px; }
+.merke { display: inline-flex; align-items: center; gap: 10px; color: var(--tekst); text-decoration: none;
+  font: 800 22px/1 ui-rounded, "SF Pro Rounded", system-ui, sans-serif; letter-spacing: .04em; }
+.merke b { color: var(--laser); font-weight: 900; }
+h1 { font: 800 34px/1.15 ui-rounded, "SF Pro Rounded", system-ui, sans-serif; margin: 28px 0 6px; }
+h2 { font-size: 21px; margin: 32px 0 8px; }
+p, li { color: rgba(255,255,255,.88); }
+.dempet { color: var(--dempet); font-size: 15px; }
+a { color: var(--laser); }
+ul { padding-left: 22px; }
+.kort { background: var(--flate); border-radius: 16px; padding: 18px 20px; margin: 24px 0; }
+footer { margin-top: 48px; display: flex; gap: 20px; flex-wrap: wrap; font-size: 15px; }
